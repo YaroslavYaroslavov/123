@@ -1,0 +1,45 @@
+html,
+body {
+    margin: 0;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(85, 59, 13);
+    transition: 0.5s;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.coin {
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    background: rgb(254, 216, 64);
+    border: 10px solid rgb(197, 136, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container:hover {
+    width: 250px;
+    height: 250px;
+    font-size: 25px;
+}
